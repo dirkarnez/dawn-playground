@@ -1,9 +1,11 @@
-portaudio-playground
-====================
-![](https://github.com/dirkarnez/portaudio-playground/actions/workflows/build.yml/badge.svg)
+dawn-playground
+===============
+![](https://github.com/dirkarnez/dawn-playground/actions/workflows/build.yml/badge.svg)
+
+Based on [beaufortfrancois/webgpu-cross-platform-app: WebGPU cross-platform app with CMake/Emscripten](https://github.com/beaufortfrancois/webgpu-cross-platform-app)
 
 ### Using
-- [dirkarnez/portaudio-prebuilt](https://github.com/dirkarnez/portaudio-prebuilt)
+- [dirkarnez/dawn-prebuilt](https://github.com/dirkarnez/dawn-prebuilt)
 
 ### TODOs
 - [ ] remove logic in .github/workflows/build.yml
