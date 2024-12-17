@@ -25,12 +25,11 @@ else()
     message(STATUS "NO")
 endif()
 
-
 add_executable(${PROJECT_NAME} 
   "src/main.cpp"
 )
 
-target_link_libraries(${PROJECT_NAME} PRIVATE dawn::webgpu_dawn glfw webgpu_glfw)
+target_link_libraries(${PROJECT_NAME} PRIVATE dawn::webgpu_dawn) # glfw webgpu_glfw)
 
 # if(EMSCRIPTEN)
 #   set_target_properties(${PROJECT_NAME} PROPERTIES SUFFIX ".html")
