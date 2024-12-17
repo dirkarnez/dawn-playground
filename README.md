@@ -10,9 +10,11 @@ dawn-playground
 - Needs `dawn-cmake-installation\bin\webgpu_dawn.dll` to run
 - this repo https://dawn.googlesource.com/tint is deprecated, **only use tint inside dawn repo**
 - Compare with [dirkarnez/gpu.cpp-prebuilt](https://github.com/dirkarnez/gpu.cpp-prebuilt)
+- See [dawn/docs/support.md at main · google/dawn](https://github.com/google/dawn/blob/main/docs/support.md)
 
 ### Using
 - [dirkarnez/dawn-prebuilt](https://github.com/dirkarnez/dawn-prebuilt)
+
 
 ### TODOs
 - [ ] remove logic in .github/workflows/build.yml
